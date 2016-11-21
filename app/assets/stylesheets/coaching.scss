@@ -1,0 +1,98 @@
+// Place all the styles related to the Coaching controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h2{
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Ubuntu;
+}
+
+p{
+  font-family: Ubuntu;
+  color: gray;
+}
+
+.btn-blue {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  // background: #1E88CF;
+  transition: background 0.3s ease;
+  margin: 15px;
+}
+
+.btn-blue:hover {
+  opacity: 1;
+  background: #66D6E2;
+  text-decoration: none;
+  color: white;
+}
+
+.container-question{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 150px;
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  position:relative;
+}
+
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  border-left-color: rgb(230, 230, 230);
+  border-left-style: solid;
+  border-left-width: 5px;
+  position:relative;
+}
+
+.container-txt{
+  position: relative;
+  padding: 10px;
+}
+
+.text-align{
+  text-align: center;
+}
+
+
+// .navbar-wagon-search {
+//   flex: 0 1 300px;
+//   display: flex;
+//   justify-content: flex-end;
+//   padding: 0 10px;
+//   position: relative;
+// }
+// .navbar-wagon-search-btn {
+//   line-height: 40px;
+//   color: #E6E6E6;
+//   border: none;
+//   background: transparent;
+//   position: absolute;
+//   right: 14px;
+//   top: -2px;
+//   z-index: 1;
+// }
+// .navbar-wagon-search-input {
+//   flex: 0 1 300px;
+//   transition: all 0.15s ease;
+//   line-height: 40px;
+//   font-weight: lighter;
+//   color: #666666;
+//   border: 1px solid #E6E6E6;
+//   border-radius: 5px;
+//   padding: 0 10px;
+//   font-size: 14px;
+//   outline: none;
+// }
+// .navbar-wagon-search-input:focus  {
+//   border: 1px solid #CCCCCC;
+// }
